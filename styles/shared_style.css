@@ -1,3 +1,22 @@
 body {
-  background-color: antiquewhite;
+  background-color: #f6eae1;
+
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  color: #565252;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+.logoContainer {
+}
+
+.logoContainer p {
+  margin: 0;
+  line-height: 0.9;
 }
