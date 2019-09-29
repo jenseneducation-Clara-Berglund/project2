@@ -4,16 +4,28 @@ body {
   margin: 0;
 }
 
+.cbLogo {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+}
+
 h1 {
+  font-family: "Playfair Display", serif;
   font-size: 40px;
   color: #565252;
   text-align: center;
 }
 
-h3 {
-  font-size: 20px;
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #565252;
+  font-size: 32px;
 }
-.logoContainer {
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #565252;
 }
 
 .logoContainer p {
