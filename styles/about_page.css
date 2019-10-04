@@ -1,0 +1,14 @@
+@import "/styles/shared_style.css";
+
+.sectionContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 140px 900px 140px;
+}
+
+.aboutContainer {
+  background-color: #d8d8d8;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}

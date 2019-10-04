@@ -1,6 +1,5 @@
 body {
   background-color: #f6eae1;
-
   margin: 0;
 }
 
@@ -29,9 +28,39 @@ h3 {
   color: #565252;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .logoContainer p {
   margin: 0;
   line-height: 0.9;
+}
+
+.headerContainer {
+  align-self: flex-start;
+  padding: 20px;
+}
+.mainContainer {
+  background-image: url("https://images.unsplash.com/photo-1501769214405-5e5ee5125a02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=698&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainContainer img {
+  width: 15%;
+  max-width: 100px;
+  align-self: flex-end;
+  margin: 20px 20px 0px 0px;
+}
+
+.socialLinksContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 .socialLink {
@@ -39,10 +68,24 @@ h3 {
   justify-content: flex-start;
   flex-direction: row;
   align-items: center;
+  line-height: 3;
 }
 
 .socialLink img {
   width: 20px;
   height: 20px;
   margin-right: 16px;
+}
+
+.socialLink a {
+  text-decoration: none;
+}
+
+.footerContainer {
+  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: flex-end;
+  justify-content: space-between;
 }

@@ -3,33 +3,7 @@
 .sectionContainer {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 140px 500px 840px 500px 250px;
-
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-}
-
-.headerContainer {
-  align-self: flex-start;
-  padding: 20px;
-}
-
-.mainContainer {
-  background-image: url("https://images.unsplash.com/photo-1501769214405-5e5ee5125a02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=698&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.mainContainer img {
-  width: 15%;
-  max-width: 100px;
-  align-self: flex-end;
-  margin: 20px 20px 0px 0px;
+  grid-template-rows: 140px 500px 840px 500px 190px;
 }
 
 .linkContainer {
@@ -38,10 +12,6 @@
   grid-template-rows: 280px 280px 280px;
   margin-left: auto;
   margin-right: auto;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
 }
 
 button {
@@ -60,23 +30,6 @@ button {
   flex-direction: column;
 }
 
-.footerContainer {
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  margin-bottom: 30px;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
-.socialLink {
-  display: flex;
-  flex-direction: row;
-}
-.cbLogo {
-}
-
-/* styling for contact-form */
 input {
   background-color: white;
   font-family: "Playfair Display", serif;
@@ -102,6 +55,3 @@ textarea {
   margin-top: 10px;
   padding: 10px;
 }
-
-/*-----> ursprungliga bildstorleken på background image  width: 500px;
-  height: 500px; */
