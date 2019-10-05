@@ -16,7 +16,7 @@
 
 button {
   font-family: "Playfair Display", serif;
-  background-color: #d8d8d8;
+  background-image: linear-gradient(to bottom right, #faf8f8, #b1b1b1);
   font-size: 32px;
   width: 250px;
   height: 250px;
