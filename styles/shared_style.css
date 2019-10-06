@@ -38,6 +38,14 @@ p {
   line-height: 0.9;
 }
 
+.logoContainer a {
+  text-decoration: none;
+}
+
+.logoContainer a:visited {
+  color: black;
+}
+
 .headerContainer {
   display: flex;
   justify-content: space-between;
@@ -144,4 +152,27 @@ p {
   border-style: solid none none none;
   border-width: 0.0625em 0em 0em 0em;
   border-color: rgba(0, 0, 0, 0.3);
+}
+
+.menuContainerDesktop {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .menuContainer {
+    display: none;
+  }
+
+  .menuContainerDesktop {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 30%;
+    padding-right: 3em;
+  }
+
+  .menuContainerDesktop a {
+    text-decoration: none;
+  }
 }
