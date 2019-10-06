@@ -3,13 +3,13 @@
 .sectionContainer {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 140px 500px 840px 500px 190px;
+  grid-template-rows: 8.75em 31.3em 52.5em 31.3em 11.8em;
 }
 
 .linkContainer {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 280px 280px 280px;
+  grid-template-rows: 17.5em 17.5em 17.5em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -17,10 +17,11 @@
 button {
   font-family: "Playfair Display", serif;
   background-image: linear-gradient(to bottom right, #faf8f8, #b1b1b1);
-  font-size: 32px;
-  width: 250px;
-  height: 250px;
-  margin-top: 30px;
+  font-size: 2em;
+  width: 15.6rem;
+  height: 15.6rem;
+  margin-top: 1.87em;
+  box-shadow: 0.3em 0.3em 0.3em#00000033;
 }
 
 .contactContainer {
@@ -33,25 +34,28 @@ button {
 input {
   background-color: white;
   font-family: "Playfair Display", serif;
-  font-size: 16px;
+  font-size: 1em;
   color: #565252;
-  /* box-shadow: 2.5px 2.5px;
-  color: grey; */
+  box-shadow: 0.3em 0.3em 0.3em#00000033;
+  border: none;
   width: 70%;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 0.625em;
+  padding: 0.625em;
 }
 
 input[type="submit"] {
   background-color: white;
-  width: 312px;
+  width: 70%;
+  box-shadow: 0.3em 0.3em 0.3em#00000033;
 }
 
 textarea {
   font-family: "Playfair Display", serif;
-  font-size: 16px;
+  font-size: 1em;
+  box-shadow: 0.3em 0.3em 0.3em#00000033;
+  border: none;
   width: 70%;
-  height: 200px;
-  margin-top: 10px;
-  padding: 10px;
+  height: 12.5em;
+  margin-top: 0.625em;
+  padding: 0.625em;
 }
