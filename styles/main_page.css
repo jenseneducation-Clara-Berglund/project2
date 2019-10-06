@@ -3,7 +3,7 @@
 .sectionContainer {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 8.75em 31.3em 52.5em 31.3em 11.8em;
+  grid-template-rows: 8.75em 31.3em 58em 31.3em 11.8em;
 }
 
 .linkContainer {
@@ -59,3 +59,5 @@ textarea {
   margin-top: 0.625em;
   padding: 0.625em;
 }
+
+@media only screen and (min-width: 900px) {
