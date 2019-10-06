@@ -39,9 +39,59 @@ p {
 }
 
 .headerContainer {
-  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   padding: 1.25em;
 }
+
+.menuContainer {
+  position: relative;
+}
+
+.hamburgerButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+}
+
+.hamburgerButton div {
+  background-color: black;
+  height: 0.25em;
+  width: 4.5em;
+}
+
+.menuContent {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: lightgray;
+  box-shadow: 0.3em 0.3em 0.3em#00000033;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  width: 8em;
+}
+
+.menuContent a {
+  display: flex;
+  text-decoration: none;
+  line-height: 2em;
+  align-items: column;
+  color: #565252;
+  padding-left: 0.5em;
+}
+
+.menuContent a:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.menuContainer:hover .menuContent {
+  display: block;
+}
+
 .mainContainer {
   background-image: url("https://images.unsplash.com/photo-1501769214405-5e5ee5125a02?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=698&q=80");
   background-repeat: no-repeat;
