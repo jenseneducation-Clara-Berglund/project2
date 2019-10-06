@@ -3,45 +3,68 @@
 .sectionContainer {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 140px 900px 140px;
+  grid-template-rows: 8.75em 56.25em 11.8em;
 }
 
 .contactContainer {
   background-color: #e1d5cc;
-  line-height: 1.5;
   width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
+  padding: 1.25em;
+}
+
+.phoneAddressContainer {
+  width: 70%;
+  padding: 1em;
+  display: flex;
+}
+
+.phoneAddressContainer p {
+  font-family: "Playfair Display", serif;
+}
+
+#phoneAddressTitle {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+#phoneAdress {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 input {
   background-color: white;
   font-family: "Playfair Display", serif;
-  font-size: 16px;
+  font-size: 1em;
   color: #565252;
-  box-shadow: 5px 5px 5px #00000033;
+  box-shadow: 0.3em 0.3em 0.3em #00000033;
   border: none;
   width: 70%;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 1em;
+  padding: 1em;
 }
 
 input[type="submit"] {
   background-color: white;
-  width: 312px;
-  box-shadow: 5px 5px 5px #00000033;
+  width: 70%;
+  box-shadow: 0.3em 0.3em 0.3em #00000033;
 }
 
 textarea {
   font-family: "Playfair Display", serif;
-  font-size: 16px;
+  font-size: 1em;
   width: 70%;
-  height: 200px;
-  box-shadow: 5px 5px 5px #00000033;
+  height: 12em;
+  box-shadow: 0.3em 0.3em 0.3em #00000033;
   border: none;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 1em;
+  padding: 1em;
 }
