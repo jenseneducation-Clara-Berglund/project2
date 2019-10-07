@@ -9,6 +9,7 @@
 .aboutContainer {
   background-color: #e1d5cc;
   width: 80%;
+  box-shadow: 0.3em 0.3em 0.3em #00000033;
   display: flex;
   justify-content: center;
   padding: 1.2em;
