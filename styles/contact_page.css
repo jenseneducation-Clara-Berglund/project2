@@ -7,7 +7,7 @@
 }
 
 .contactContainer {
-  background-color: #e1d5cc;
+  background-color: #f6eae1;
   width: 80%;
   box-shadow: 0.3em 0.3em 0.3em #00000033;
   display: flex;
@@ -68,4 +68,23 @@ textarea {
   border: none;
   margin-top: 1em;
   padding: 1em;
+}
+
+@media only screen and (min-width: 900px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+  .phoneAddressContainer {
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  #phoneAdressTitle {
+    flex-direction: row;
+  }
+  #phoneAdress {
+    flex-direction: column;
+  }
 }

@@ -7,7 +7,7 @@
 }
 
 .aboutContainer {
-  background-color: #e1d5cc;
+  background-color: #f6eae1;
   width: 80%;
   box-shadow: 0.3em 0.3em 0.3em #00000033;
   display: flex;
@@ -18,4 +18,10 @@
 .aboutContainer p {
   font-family: "Playfair Display", serif;
   line-height: 1.5em;
+}
+
+@media only screen and (min-width: 900px) {
+  .aboutContainer {
+    width: 50%;
+  }
 }
