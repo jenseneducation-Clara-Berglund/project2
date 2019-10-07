@@ -140,7 +140,13 @@ p {
 }
 
 .socialLink a {
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
+  color: black;
+}
+
+.socialLink a:visited {
+  color: black;
 }
 
 .footerContainer {

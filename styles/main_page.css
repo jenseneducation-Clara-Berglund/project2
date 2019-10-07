@@ -16,7 +16,7 @@
 
 button {
   font-family: "Playfair Display", serif;
-  /* background-image: linear-gradient(to bottom right, #faf8f8, #b1b1b1); */
+  background-color: white;
   font-size: 2em;
   width: 15.6rem;
   height: 15.6rem;
@@ -79,7 +79,7 @@ input[type="submit"] {
     color: gold;
   }
   25% {
-    color: black;
+    color: #565252;
   }
   50% {
     color: white;

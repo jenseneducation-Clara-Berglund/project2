@@ -6,22 +6,22 @@
   grid-template-rows: 8.75em 50em 11.8em;
 }
 
-.aboutContainer {
+.projectsContainer {
+  background-image: url("https://media.istockphoto.com/vectors/page-design-template-and-web-site-under-construction-vector-id871734840");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #f6eae1;
   width: 80%;
+  height: 20em;
   box-shadow: 0.3em 0.3em 0.3em #00000033;
   display: flex;
   justify-content: center;
   padding: 1.2em;
 }
 
-.aboutContainer p {
-  font-family: "Playfair Display", serif;
-  line-height: 1.5em;
-}
-
 @media only screen and (min-width: 900px) {
-  .aboutContainer {
+  .projectsContainer {
     width: 50%;
   }
   .sectionContainer {

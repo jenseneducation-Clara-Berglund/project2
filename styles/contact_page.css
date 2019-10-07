@@ -8,11 +8,11 @@
 
 .contactContainer {
   background-color: #f6eae1;
-  width: 80%;
   box-shadow: 0.3em 0.3em 0.3em #00000033;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
   flex-direction: column;
   padding: 1.25em;
 }
@@ -30,15 +30,12 @@
 #phoneAddressTitle {
   display: flex;
   flex-direction: column;
-  flex-basis: 0;
-  flex-grow: 1;
 }
 
 #phoneAdress {
   display: flex;
   flex-direction: column;
-  flex-basis: 0;
-  flex-grow: 1;
+  margin-left: 0.5em;
 }
 
 input {
@@ -48,33 +45,44 @@ input {
   color: #565252;
   box-shadow: 0.3em 0.3em 0.3em #00000033;
   border: none;
-  width: 70%;
+  width: 90%;
   margin-top: 1em;
   padding: 1em;
 }
 
 input[type="submit"] {
   background-color: white;
-  width: 70%;
+  width: 90%;
   box-shadow: 0.3em 0.3em 0.3em #00000033;
 }
 
 textarea {
   font-family: "Playfair Display", serif;
   font-size: 1em;
-  width: 70%;
+  width: 90%;
   height: 12em;
   box-shadow: 0.3em 0.3em 0.3em #00000033;
   border: none;
   margin-top: 1em;
   padding: 1em;
 }
+.formContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 @media only screen and (min-width: 900px) {
+  .sectionContainer {
+    grid-template-rows: 8.75em 40em 11.8em;
+  }
   .contactContainer {
     display: flex;
     flex-direction: row;
     width: 50%;
+    align-items: flex-start;
   }
   .phoneAddressContainer {
     justify-content: flex-start;
