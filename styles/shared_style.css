@@ -58,7 +58,7 @@ p {
   position: relative;
 }
 
-.hamburgerButton {
+.hamburgerMenu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -66,7 +66,7 @@ p {
   height: 3em;
 }
 
-.hamburgerButton div {
+.hamburgerMenu div {
   background-color: black;
   height: 0.25em;
   width: 4.5em;
@@ -76,7 +76,7 @@ p {
   display: none;
   position: absolute;
   right: 0;
-  background-color: lightgray;
+  background-color: #d9cacc;
   box-shadow: 0.3em 0.3em 0.3em#00000033;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
