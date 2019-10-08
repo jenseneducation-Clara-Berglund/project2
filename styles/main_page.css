@@ -22,6 +22,7 @@ button {
   height: 15.6rem;
   margin-top: 1.87em;
   box-shadow: 0.3em 0.3em 0.3em#00000033;
+  border: 0;
 }
 
 .contactContainer {
@@ -32,6 +33,13 @@ button {
   padding: 0 3em;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
 input {
   background-color: white;
   font-family: "Playfair Display", serif;
@@ -69,29 +77,26 @@ input[type="submit"] {
 }
 
 @keyframes lifeanimation {
-  /* from {
-    color: black;
-  }
-  to {
-    color: white; */
-  /* } */
   0% {
-    color: gold;
-  }
-  25% {
     color: #565252;
   }
-  50% {
-    color: white;
+  20% {
+    color: #706e6e;
   }
-  100% {
+  40% {
+    color: #7e7b7b;
+  }
+  60% {
+    color: #c4c0c0;
+  }
+  80% {
     color: white;
   }
 }
 
 .animatedspan {
   animation-name: lifeanimation;
-  animation-duration: 5s;
+  animation-duration: 11s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
 }
