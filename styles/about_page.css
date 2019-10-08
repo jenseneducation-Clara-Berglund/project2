@@ -12,6 +12,8 @@
   box-shadow: 0.3em 0.3em 0.3em #00000033;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 1.2em;
 }
 
